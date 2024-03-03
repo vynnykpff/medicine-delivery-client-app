@@ -13,6 +13,32 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "#/*": [
+        "src/assets/*"
+      ],
+      "@components": [
+        "src/components"
+      ],
+      "@utils": [
+        "src/utils"
+      ],
+      "@constants": [
+        "src/shared/constants"
+      ],
+      "@types": [
+        "src/shared/types"
+      ],
+      "@styles": [
+        "src/assets/styles/*"
+      ],
+      "@pages": [
+        "src/pages"
+      ]
+    },
 
     /* Linting */
     "strict": true,
