@@ -1,4 +1,4 @@
-import { Footer, Header } from '@components';
+import { Header } from '@components';
 import { Outlet } from 'react-router-dom';
 import styles from './Layout.module.scss';
 
@@ -9,7 +9,6 @@ export const Layout = () => {
       <main className={styles.mainContainer}>
         <Outlet />
       </main>
-      <Footer />
     </div>
   );
 };
