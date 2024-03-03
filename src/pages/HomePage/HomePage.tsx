@@ -1,13 +1,11 @@
-import { Container, ShopsList } from '@components';
+import { Container, ProductList, ShopsList } from '@components';
+import styles from './HomePage.module.scss';
 
-type Props = {};
-
-export const HomePage = (props: Props) => {
-  const {} = props;
-
+export const HomePage = () => {
   return (
-    <Container>
+    <Container className={styles.container}>
       <ShopsList />
+      <ProductList />
     </Container>
   );
 };

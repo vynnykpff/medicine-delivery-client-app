@@ -1,0 +1,10 @@
+.container {
+	border: 1px solid #ccc;
+	border-radius: 12px;
+	padding: 20px;
+
+	.cardDescription {
+		display: flex;
+		justify-content: space-between;
+	}
+}
