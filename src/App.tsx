@@ -1,3 +1,5 @@
+import { Routing } from '@/components/Routing.tsx';
+
 export const App = () => {
-  return <div></div>;
+  return <Routing />;
 };

@@ -1,0 +1,13 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+	padding: 15px;
+
+	.cardDescription {
+		display: flex;
+		justify-content: space-between;
+	}
+}

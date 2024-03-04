@@ -1,0 +1,22 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+
+	.list {
+		.listItem {
+			font-size: 18px;
+			color: #333;
+		}
+
+		.activeListItem {
+			color: #000;
+			font-weight: 600;
+		}
+	}
+
+	.iconsWrapper {
+		display: flex;
+		gap: 20px;
+		font-size: 24px;
+	}
+}
