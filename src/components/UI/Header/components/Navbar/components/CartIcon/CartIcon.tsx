@@ -9,7 +9,7 @@ type Props = {
 };
 
 export const CartIcon = (props: Props) => {
-  const {amount, isValid } = getMaxAvailableAmount(props.amount);
+  const { amount, isValid } = getMaxAvailableAmount(props.amount);
 
   return (
     <div className={styles.container}>

@@ -7,8 +7,8 @@ export const ShopsList = () => {
     <aside className={styles.container}>
       <p className={styles.title}>Shops:</p>
       <ul className={styles.shopsList}>
-        {Shops.map(({id, ...shop}) => (
-          <Shop key={id} {...shop}  />
+        {Shops.map(({ id, ...shop }) => (
+          <Shop key={id} {...shop} />
         ))}
       </ul>
     </aside>

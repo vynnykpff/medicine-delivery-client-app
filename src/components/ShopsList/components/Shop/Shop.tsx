@@ -5,5 +5,9 @@ import styles from './Shop.module.scss';
 export const Shop = (props: Omit<NavbarMenu, 'id'>) => {
   const { label } = props;
 
-  return <Button className={styles.button} type="primary">{label}</Button>;
+  return (
+    <Button className={styles.button} type="primary">
+      {label}
+    </Button>
+  );
 };
